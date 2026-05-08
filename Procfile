@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python stressv2.py
