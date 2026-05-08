@@ -1557,7 +1557,7 @@ def main() -> None:
     logger.info("✅ Bot is running. Press Ctrl+C to stop.")
     
     # Start polling
-    application.run_polling(allowed_updates=Update.ALL_TYPES)
+    application.run_polling(allowed_updates=Update.ALL_TYPES, stop_signals=None)
 
 
 if __name__ == "__main__":
